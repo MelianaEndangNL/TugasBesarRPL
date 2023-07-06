@@ -1,0 +1,85 @@
+/* style untuk header */
+header {
+  background-color: #007bff;
+  color: white;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 1rem;
+}
+
+/* style untuk navbar */
+.navbar {
+  padding: 1rem;
+}
+
+/* style untuk brand/logo */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* style untuk menu navigasi */
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  color: white;
+}
+
+/* style untuk hero section */
+#hero {
+  background-image: url(img/hero-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 5rem;
+}
+
+/* style untuk judul di hero section */
+#hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* style untuk deskripsi di hero section */
+#hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* style untuk button di hero section */
+#hero .btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 0;
+}
+
+/* style untuk about us section */
+#about {
+  padding: 5rem 0;
+}
+
+/* style untuk judul di about us section */
+#about h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* style untuk deskripsi di about us section */
+#about p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}

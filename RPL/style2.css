@@ -1,0 +1,107 @@
+/* Global styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F7FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    color: #f2f3f7; /* warna biru tua */
+    font-size: 16px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: color 0.2s;
+    background-color: #0072c6;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #005ca9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header styles */
+header {
+    background-color: #c7d5df;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section styles */
+section#penyewaan {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Style untuk kotak baju */
+.baju {
+    background-color: #FFFFFF;
+    border: 1px solid #0077be;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.baju img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.baju h3 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.baju p {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.baju select {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #0077be;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #4282b1;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #005ca9;
+}

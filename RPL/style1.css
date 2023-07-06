@@ -1,0 +1,101 @@
+/* CSS untuk container */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 15px;
+  }
+  
+  /* CSS untuk header */
+  header {
+	background-color: #007bff;
+	color: white;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  /* CSS untuk form login */
+  form {
+	background-color: #f2f2f2;
+	border: 1px solid #c7d5df;
+	padding: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  form input,
+  form select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #c7d5df;
+	border-radius: 5px;
+  }
+  
+  form input:focus,
+  form select:focus {
+	outline: none;
+	border: 1px solid #333;
+  }
+  
+  form .button {
+	display: block;
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  form .button:hover {
+	background-color: #0056b3;
+  }
+  
+  .popup {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 20px;
+	z-index: 1;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+  }
+  
+  .show-popup {
+	display: block;
+  }
+  
+  .close-popup {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+  }
+  
+  body {
+	font-family: Verdana;
+  }
+  

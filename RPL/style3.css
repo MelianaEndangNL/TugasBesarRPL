@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F7FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: #0072c6;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-family: Verdana
+}
+
+a:hover {
+    background-color: #005ca9;
+}
+
+section {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Verdana
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+section select {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #0077be;
+    border-radius: 5px;
+    font-family: Verdana;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4282b1;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: Verdana
+}
+
+.button:hover {
+    background-color: #005ca9;
+}
